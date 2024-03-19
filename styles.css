@@ -1,0 +1,45 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: darkslategray;
+}
+
+h1 {
+    text-align: center;
+    color: lightsteelblue;
+}
+
+button {
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+label {
+    color: red;
+}
+
+input {
+    border: 1px solid black;
+    outline: none;
+}
+
+.error {
+    border: 2px solid red;
+}
+
+li {
+    padding: 5px;
+    text-wrap: wrap;
+    list-style-type: none;
+    color: lightsteelblue;
+}
+
+ol {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0;
+}
